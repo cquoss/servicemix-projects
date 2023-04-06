@@ -1,0 +1,14 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>de.quoss.servicemix</groupId>
+        <artifactId>projects</artifactId>
+        <version>1.0</version>
+    </parent>
+    <groupId>de.quoss.servicemix.projects</groupId>
+    <artifactId>http</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>http-file</module>
+    </modules>
+</project>

@@ -1,0 +1,4 @@
+<beans xmlns:http="http://servicemix.apache.org/http/1.0"
+        xmlns:http-file="http://servicemix.apache.org/http-file/1.0">
+    <http:endpoint service="http-file:http" endpoint="endpoint"/>
+</beans>

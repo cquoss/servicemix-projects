@@ -1,0 +1,4 @@
+<beans xmlns:file="http://servicemix.apache.org/file/1.0"
+        xmlns:http-file="http://servicemix.apache.org/http-file/1.0">
+    <file:poller service="http-file:file" endpoint="poller"/>
+</beans>
